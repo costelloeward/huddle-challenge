@@ -1,0 +1,11 @@
+body{
+  background:
+  url(images/bg-desktop.svg),
+  #674BAF;
+  color:white;
+}
+
+a{
+  /* soft magenta */
+  color: #E882E8;
+}
