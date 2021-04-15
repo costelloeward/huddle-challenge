@@ -3,6 +3,22 @@ body{
   url(images/bg-desktop.svg),
   #674BAF;
   color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+button{
+  background-color: white;
+  border: solid white;
+  border-radius: 10%;
+  color:#674BAF;
 }
 
 a{
