@@ -5,13 +5,20 @@ body{
   color:white;
   font-family: 'Open Sans', sans-serif;
 }
+/* Responsive flex */
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+/* @media (max-width: 30rem) {
+  .flex-grid {
+    display: block;
+  }
+} */
 h1{
   font-family: 'Poppins', sans-serif;
-}
-
-h2{
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
 }
 
 button{
@@ -24,4 +31,12 @@ button{
 a{
   /* soft magenta */
   color: #E882E8;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
