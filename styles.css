@@ -9,14 +9,15 @@ body{
 .flex-grid {
   display: flex;
 }
-.col {
-  flex: 1;
-}
-/* @media (max-width: 30rem) {
+@media (max-width: 40rem) {
   .flex-grid {
-    display: block;
+    display:inline-block;
   }
-} */
+  .column {
+    flex: 50%;
+  }
+
+
 h1{
   font-family: 'Poppins', sans-serif;
 }
@@ -28,15 +29,7 @@ button{
   color:#674BAF;
 }
 
-a{
+/* a{
   /* soft magenta */
-  color: #E882E8;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
+  /* color: #E882E8;
+} */
