@@ -16,7 +16,7 @@ body{
   .column {
     flex: 50%;
   }
-
+}
 
 h1{
   font-family: 'Poppins', sans-serif;
@@ -33,3 +33,17 @@ button{
   /* soft magenta */
   /* color: #E882E8;
 } */
+/* Social media icons */
+
+footer{
+  position:absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+.fab{
+  border: white solid 0.1rem;
+  border-radius: 100%;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
