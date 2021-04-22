@@ -1,10 +1,4 @@
-body{
-  background:
-  url(images/bg-desktop.svg),
-  #674BAF;
-  color:white;
-  font-family: 'Open Sans', sans-serif;
-}
+
 /* Responsive flex */
 .flex-grid {
   display: flex;
@@ -18,27 +12,49 @@ body{
   }
 }
 
+body{
+  background:
+  url(images/bg-desktop.svg),
+  #674BAF;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 4.3rem;
+}
+
 h1{
   font-family: 'Poppins', sans-serif;
 }
 
+div{
+  margin-top: 3.3rem;
+}
+
+main{
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 40rem){
+  main{
+    text-align: center;
+  }
+}
+/* Register button styling */
 button{
   background-color: white;
   border: solid white;
   border-radius: 10%;
   color:#674BAF;
+  padding: 1rem 5rem 1rem 5rem;
 }
 
-/* a{
-  /* soft magenta */
-  /* color: #E882E8;
-} */
-/* Social media icons */
+/* Soft magenta when active */
+/* #E882E8 */
 
+/* Social media icons */
 footer{
-  position:absolute;
-  bottom: 2rem;
-  right: 3rem;
+  margin-top: 14.2rem;
+  margin-left: 22rem;
+
 }
 
 .fab{
