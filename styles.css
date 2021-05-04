@@ -1,49 +1,31 @@
-
-/* Responsive flex */
-.flex-grid {
-  display: flex;
-}
-@media (max-width: 40rem) {
-  .flex-grid {
-    display:inline-block;
-  }
-  .column {
-    flex: 50%;
-  }
-}
-
 body{
   background:
-  url(images/bg-desktop.svg),
+  url(images/bg-mobile.svg) no-repeat,
   #674BAF;
   color:white;
   font-family: 'Open Sans', sans-serif;
-  margin: 4.3rem;
+  margin: 2rem;
+  text-align: center;
 }
 
-h1{
+header{
+  text-align: left;
+}
+
+h2{
   font-family: 'Poppins', sans-serif;
 }
-
-div{
-  margin-top: 3.3rem;
-}
-
 main{
-  margin-left: 3rem;
-  margin-top: 1.5rem;
-}
-@media (max-width: 40rem){
-  main{
-    text-align: center;
-  }
+  margin-top: 4rem;
 }
 /* Register button styling */
-button{
+.register{
   background-color: white;
   border: solid white;
   border-radius: 10%;
   color:#674BAF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   padding: 1rem 5rem 1rem 5rem;
 }
 
@@ -52,9 +34,7 @@ button{
 
 /* Social media icons */
 footer{
-  margin-top: 14.2rem;
-  margin-left: 22rem;
-
+  margin-top: 4rem;
 }
 
 .fab{
@@ -63,3 +43,31 @@ footer{
   margin: 0.2rem;
   padding: 0.2rem;
 }
+
+/* Responsive flex */
+.flex-grid {
+  display:inline-block;
+}
+
+/* Make image responsive */
+.mockup{
+  max-width:100%;
+  height:auto;
+}
+
+/* Set for larger screen sizes */
+@media (min-width: 40rem) {
+  .flex-grid {
+    display: flex;
+  }
+    .column {
+      flex: 50%;
+    }
+    body{
+      background:
+      url(images/bg-desktop.svg),#674BAF ;
+    }
+    main{
+      text-align:left;
+    }
+  }
