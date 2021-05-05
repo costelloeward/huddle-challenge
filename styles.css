@@ -4,7 +4,7 @@ body{
   #674BAF;
   color:white;
   font-family: 'Open Sans', sans-serif;
-  margin: 2rem;
+  margin: 3rem;
   text-align: center;
 }
 
@@ -22,11 +22,13 @@ main{
 .register{
   background-color: white;
   border: solid white;
-  border-radius: 10%;
+  border-radius: 5rem;
   color:#674BAF;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  padding: 1rem 5rem 1rem 5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 5rem;
+  /* padding: 0.5rem 5rem 0.5rem 5rem; */
 }
 
 /* Soft magenta when active */
@@ -51,7 +53,7 @@ footer{
 
 /* Make image responsive */
 .mockup{
-  max-width:100%;
+  width:100%;
   height:auto;
 }
 
@@ -61,13 +63,24 @@ footer{
     display: flex;
   }
     .column {
-      flex: 50%;
+      flex: 70%;
     }
     body{
       background:
       url(images/bg-desktop.svg),#674BAF ;
     }
+
     main{
+      margin-left: 3rem;
+      max-width: 40%;
       text-align:left;
+    }
+    .panel-title{
+      font-size: 2rem;
+    }
+    footer{
+      position: absolute;
+      bottom: 1rem;
+      right: 2rem;
     }
   }
