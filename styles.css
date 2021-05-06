@@ -30,9 +30,11 @@ main{
   padding: 0.5rem 5rem;
   /* padding: 0.5rem 5rem 0.5rem 5rem; */
 }
-
-/* Soft magenta when active */
-/* #E882E8 */
+.register:active{
+  background-color: #E882E8;
+  border: solid #E882E8;
+  color: white;
+}
 
 /* Social media icons */
 footer{
@@ -40,12 +42,18 @@ footer{
 }
 
 .fab{
-  border: white solid 0.1rem;
-  border-radius: 100%;
+  border:solid white 0.1rem;
+  border-radius: 50%;
   margin: 0.2rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
-
+.fab:active{
+  border:solid #E882E8;
+  color: #E882E8;
+}
+.fa-facebook-f{
+  padding: 0.4rem 0.5rem;
+}
 /* Responsive flex */
 .flex-grid {
   display:inline-block;
