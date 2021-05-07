@@ -72,7 +72,7 @@ footer{
 
 
 /* Set for larger screen sizes */
-@media (min-width: 40rem) {
+@media (min-width: 23.5rem) {
   .flex-grid {
     display: flex;
   }
